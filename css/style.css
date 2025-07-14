@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Paprika", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    max-width: 550px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.container img{
+    width: 100%;
+}
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 10px;
+    padding: 20px;
+}
+.day,.date{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 0;
+    border-radius: 7px;
+    background-color: gainsboro;
+    color: #132a13;
+}
+/* .day{
+    background-color: #dde5b6;
+} */
+h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
